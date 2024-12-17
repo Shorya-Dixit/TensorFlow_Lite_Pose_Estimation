@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on optimizing a TensorFlow Lite (TFLite) pose estimation model for mobile inference. It includes model quantization, inference on real images, and visualization of detected body keypoints.
 
-The keypoints are mapped to body parts based on the COCO dataset format. This optimized model is lightweight and suitable for mobile devices with fast inference times.
+This optimized model is lightweight and suitable for mobile devices with fast inference times.
 
 ---
 
