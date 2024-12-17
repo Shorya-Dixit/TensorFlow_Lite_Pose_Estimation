@@ -13,3 +13,9 @@ The keypoints are mapped to body parts based on the COCO dataset format. This op
 - **Inference Visualization**: Visualizing keypoints on input images.
 - **Inference Time Measurement**: Measuring and reporting inference time in milliseconds.
 - **Keypoint Mapping**: Mapping keypoints to body parts.
+- **Google Colab Environment**: No setup required to run the code directly in Colab.
+
+## Project Directory
+This directory structure is for Colab users to run the code interactively.
+
+├── real_image.jpg # Input test image ├── model.tflite # TensorFlow Lite optimized model ├── keypoint_mapping.py # Script to print the keypoint mapping table ├── inference_visualization.py # Inference script to visualize keypoints └── README.md # Project documentation
