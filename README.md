@@ -15,7 +15,41 @@ The keypoints are mapped to body parts based on the COCO dataset format. This op
 - **Keypoint Mapping**: Mapping keypoints to body parts.
 - **Google Colab Environment**: No setup required to run the code directly in Colab.
 
-## Project Directory
-This directory structure is for Colab users to run the code interactively.
+---
 
-├── real_image.jpg # Input test image ├── model.tflite # TensorFlow Lite optimized model ├── keypoint_mapping.py # Script to print the keypoint mapping table ├── inference_visualization.py # Inference script to visualize keypoints └── README.md # Project documentation
+## 🧩 Keypoint Mapping Table
+
+| **Keypoint Number** | **Body Part**       |
+|---------------------|---------------------|
+| 1                   | Nose               |
+| 2                   | Left Eye           |
+| 3                   | Right Eye          |
+| 4                   | Left Ear           |
+| 5                   | Right Ear          |
+| 6                   | Left Shoulder      |
+| 7                   | Right Shoulder     |
+| 8                   | Left Elbow         |
+| 9                   | Right Elbow        |
+| 10                  | Left Wrist         |
+| 11                  | Right Wrist        |
+| 12                  | Left Hip           |
+| 13                  | Right Hip          |
+| 14                  | Left Knee          |
+| 15                  | Right Knee         |
+| 16                  | Left Ankle         |
+| 17                  | Right Ankle        |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Open Google Colab
+- Simply open [Google Colab](https://colab.research.google.com/).
+
+### 2. Upload Files
+- Upload your **TensorFlow Lite model** (e.g., `model.tflite`) and **input image** (e.g., `real_image.jpg`) directly to Colab via the sidebar.
+
+### 3. Install Required Libraries
+Run the following command to install the necessary libraries:
+```python
+!pip install tensorflow numpy matplotlib opencv-python tabulate
