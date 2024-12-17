@@ -131,6 +131,8 @@ plt.show()
 - **NumPy**: Array and tensor manipulation.
 - **Tabulate**: Tabular display for keypoint mapping.
 
+---
+
 ## Results
 - The optimized TFLite model enables fast inference on mobile devices.
 - Keypoints are detected with high accuracy and visualized clearly on input images.
