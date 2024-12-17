@@ -117,7 +117,7 @@ plt.show()
 ```
 
 ## Example Output
-![Pose Estimation](./example_output.png)
+![Pose Estimation](./example.png)
 
 
 ## Technologies Used
