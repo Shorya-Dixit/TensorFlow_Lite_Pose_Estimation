@@ -121,15 +121,15 @@ plt.show()
 
 
 ## Technologies Used
-**Python**: Core programming language.
-**TensorFlow Lite**: Model optimization and inference.
-**OpenCV**: Image processing.
-**Matplotlib**: Visualization of keypoints.
-**NumPy**: Array and tensor manipulation.
-**Tabulate**: Tabular display for keypoint mapping.
+- **Python**: Core programming language.
+- **TensorFlow Lite**: Model optimization and inference.
+- **OpenCV**: Image processing.
+- **Matplotlib**: Visualization of keypoints.
+- **NumPy**: Array and tensor manipulation.
+- **Tabulate**: Tabular display for keypoint mapping.
 
 ## Results
--- The optimized TFLite model enables fast inference on mobile devices.
--- Keypoints are detected with high accuracy and visualized clearly on input images.
--- Average inference time: ~20-30 ms (depending on hardware).
+- The optimized TFLite model enables fast inference on mobile devices.
+- Keypoints are detected with high accuracy and visualized clearly on input images.
+- Average inference time: ~20-30 ms (depending on hardware).
 
