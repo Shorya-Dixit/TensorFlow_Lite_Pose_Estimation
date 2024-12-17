@@ -131,5 +131,5 @@ plt.show()
 ## Results
 - The optimized TFLite model enables fast inference on mobile devices.
 - Keypoints are detected with high accuracy and visualized clearly on input images.
-- Average inference time: ~100 ms (depending on hardware).
+- Average inference time: ~80 ms (depending on hardware).
 
