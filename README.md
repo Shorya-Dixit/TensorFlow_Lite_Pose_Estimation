@@ -116,9 +116,12 @@ plt.show()
 
 ```
 
+---
+
 ## Example Output
 ![Pose Estimation](./example.png)
 
+---
 
 ## Technologies Used
 - **Python**: Core programming language.
