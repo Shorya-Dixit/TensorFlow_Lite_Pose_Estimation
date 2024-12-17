@@ -1,4 +1,4 @@
-# Pose Estimation Model
+# Pose Estimation
 
 ## Project Overview
 This project focuses on optimizing a TensorFlow Lite (TFLite) pose estimation model for mobile inference. It includes model quantization, inference on real images, and visualization of detected body keypoints.
