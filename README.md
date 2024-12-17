@@ -56,7 +56,7 @@ Run the following command to install the necessary libraries:
 ```
 
 ### 4. Run the Code in Colab
-Copy the code provided in the sections below into Colab cells.
+Copy the code provided below into Colab cells.
 Make sure to upload the model.tflite and real_image.jpg before running the code
 
 ```python
@@ -104,7 +104,7 @@ keypoints = []
 for y, x, confidence in output_data:
     keypoints.append((int(x * width), int(y * height)))  # Scale back to original size
 
-# Plot the original image with keypoints
+# Plot the image with keypoints
 plt.figure(figsize=(8, 8))
 plt.imshow(image_rgb)
 for i, (x, y) in enumerate(keypoints):
@@ -115,4 +115,21 @@ plt.title(f"Pose Estimation Keypoints\nInference Time: {inference_time:.2f} ms")
 plt.show()
 
 ```
+
+## Example Output
+![Pose Estimation](./example_output.png)
+
+
+## Technologies Used
+**Python**: Core programming language.
+**TensorFlow Lite**: Model optimization and inference.
+**OpenCV**: Image processing.
+**Matplotlib**: Visualization of keypoints.
+**NumPy**: Array and tensor manipulation.
+**Tabulate**: Tabular display for keypoint mapping.
+
+## Results
+-- The optimized TFLite model enables fast inference on mobile devices.
+-- Keypoints are detected with high accuracy and visualized clearly on input images.
+-- Average inference time: ~20-30 ms (depending on hardware).
 
